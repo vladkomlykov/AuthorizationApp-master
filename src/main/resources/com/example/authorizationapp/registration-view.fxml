@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.lang.String?>
+<AnchorPane prefHeight="487.0" prefWidth="732.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authorizationapp.controllers.RegistrationController">
+   <children>
+      <TextField fx:id="lastnameRegistration" layoutX="56.0" layoutY="219.0" prefHeight="25.0" prefWidth="165.0" promptText="Фамилия" />
+      <TextField fx:id="firstnameRegistration" layoutX="261.0" layoutY="219.0" prefHeight="25.0" prefWidth="165.0" promptText="Имя" />
+      <TextField fx:id="patronymicRegistration" layoutX="468.0" layoutY="219.0" prefHeight="25.0" prefWidth="165.0" promptText="Отчество" />
+      <PasswordField fx:id="passwordRegistration" layoutX="56.0" layoutY="282.0" prefHeight="25.0" prefWidth="370.0" promptText="Пароль" />
+      <Label layoutX="229.0" layoutY="52.0" text="Регистрация" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="56.0" layoutY="337.0" mnemonicParsing="false" onAction="#onRegistrationClick" prefHeight="36.0" prefWidth="136.0" text="Зарегистрироваться" />
+       <ChoiceBox fx:id="roleChoiceBox" layoutX="476.0" layoutY="282.0" prefWidth="150.0"/>
+   </children>
+</AnchorPane>
